@@ -1,3 +1,51 @@
+## 7.8.28 2024-04-27 <dave at tiredofit dot ca>
+
+   ### Added
+      - Fluent-bit 3.0.3
+
+
+## 7.8.27 2024-04-12 <dave at tiredofit dot ca>
+
+   ### Added
+      - Fluent-bit 3.0.2
+
+
+## 7.8.26 2024-04-04 <dave at tiredofit dot ca>
+
+   ### Added
+      - Fluent-Bit 3.0.1
+
+
+## 7.8.25 2024-03-25 <dave at tiredofit dot ca>
+
+   ### Added
+      - Zabbix Agent 6.4.13
+
+
+## 7.8.24 2024-03-21 <dave at tiredofit dot ca>
+
+   ### Added
+      - Fluent-Bit 3.0.0
+
+
+## 7.8.23 2024-02-26 <dave at tiredofit dot ca>
+
+   ### Added
+      - Zabbix 6.4.12
+
+
+## 7.8.22 2024-02-02 <dave at tiredofit dot ca>
+
+   ### Changed
+      - Fix issue with creating blank files on startup
+
+
+## 7.8.21 2024-02-01 <dave at tiredofit dot ca>
+
+   ### Added
+      - Zabbix Agent 6.4.11
+
+
 ## 7.8.20 2023-12-13 <dave at tiredofit dot ca>
 
    ### Added
