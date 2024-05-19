@@ -1,7 +1,10 @@
 ARG ALPINE_VERSION=3.19
 
+# FROM docker.io/alpine:${ALPINE_VERSION}
+# LABEL maintainer="Dave Conroy (github.com/tiredofit)"
+
 FROM docker.io/alpine:${ALPINE_VERSION}
-LABEL maintainer="Dave Conroy (github.com/tiredofit)"
+LABEL maintainer="Zasfe (github.com/zasfe)"
 
 ARG GOLANG_VERSION=1.21.6
 ARG DOAS_VERSION
@@ -28,8 +31,8 @@ ENV FLUENTBIT_VERSION=${FLUENTBIT_VERSION:-"2.2.2"} \
     S6_GLOBAL_PATH=/command:/usr/bin:/bin:/usr/sbin:sbin:/usr/local/bin:/usr/local/sbin \
     S6_KEEP_ENV=1 \
     S6_CMD_WAIT_FOR_SERVICES_MAXTIME=0 \
-    IMAGE_NAME="tiredofit/alpine" \
-    IMAGE_REPO_URL="https://github.com/tiredofit/docker-alpine/"
+    IMAGE_NAME="zasfe/alpine" \
+    IMAGE_REPO_URL="https://github.com/zasfe/docker-alpine/"
 
 ## Mono Repo workarounds
 RUN case "$(cat /etc/os-release | grep VERSION_ID | cut -d = -f 2 | cut -d . -f 1,2)" in \
